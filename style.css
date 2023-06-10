@@ -1,0 +1,422 @@
+/* Global styles */
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* home page Header styles */
+header {
+  background-color: #fbfafa;
+  box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+}
+/* navigation bar design */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  height: 110px;
+  width: 120px;
+  margin: 0 5px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+}
+nav li a {
+  color: #070707;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+}
+nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style main content of home page */
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: justify;
+}
+.main-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+.main-content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #070707;
+}
+
+/* home page Section styles */
+.photography {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.photography article{
+  transition: transform 0.5s;
+}
+.photography article:hover{
+  transform: scale(1.2);
+}
+/* style all articles tag*/
+article {
+  background-color: #fffcfc;
+  border-radius: 20px;
+  box-shadow: 4px 5px 5px rgba(4, 4, 4, 0.6);
+  flex-basis: 20%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article p {
+  margin-top: 10px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+article a {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 0.5rem
+}
+
+/* style tips and techniques in home page */
+.tips-main-content{
+  max-width: 900px;
+  margin: 40px auto 40px auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* design photography body */
+.photography_body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* design photography header */
+.photography_header {
+  background-color: #fbfafa;
+  padding: 30px;
+  box-shadow: 3px 1px 5px rgba(59, 57, 57, 0.881);
+  margin-bottom: 7px;
+}
+.photography_nav ul {
+  padding: 15px 145vh 0px 5px;
+}
+
+/* desing all photography content  */
+.photography_blog-content {
+  max-width: 900px;
+  margin: 40px auto 40px auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* design photography gallery */
+
+.photography_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.photography_gallery img {
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+/* design photography image main image */
+.landscape_hero-image {
+  height: 400px;
+  background-image: url(img/landscape.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.portrait_hero-image {
+  height: 400px;
+  background-image: url(img/portrait.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.wildlife_hero-image {
+  height: 400px;
+  background-image: url(img/wildlife.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.street_hero-image {
+  height: 400px;
+  background-image: url(img/street.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sports_hero-image {
+  height: 400px;
+  background-image: url(img/sports.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.fashion_hero-image {
+  height: 400px;
+  background-image: url(img/fashion.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.food_hero-image {
+  height: 400px;
+  background-image: url(img/food.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.astro_hero-image {
+  height: 400px;
+  background-image: url(img/astro.avif);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* design home page  form  */
+.simple-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* style feedback form */
+.simple-form input[type=email],
+.simple-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.simple-form input[type=text]{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.simple-form button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.simple-form button[type=submit]:hover {
+  background-color: #1d1f1d;
+}
+
+/* style sign in sign up form */
+
+.form-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('background2.avif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  background:transparent;
+  border-radius: 6px;
+  padding: 0px 45px;
+  padding-right: 80px;
+}
+.wrapper h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  width: 180px;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.wrapper form .input-box {
+  height: 52px;
+  margin: 30px 0;
+}
+.wrapper form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  border: 2px solid #0532fbee;
+  border-radius: 6px;
+}
+form .policy {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+form .text h3 {
+  color: #fefcfc;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button{
+  width: 425px;
+}
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+.input-box.button input:hover {
+  background: #0e4bf1;
+}
+form .text h3 {
+  color: #fffdfd;
+  width: 100%;
+  text-align: center;
+}
+form .text h3 a {
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover {
+  text-decoration: underline;
+}
+
+/* footer design */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 14px;
+}
+
+/* FAQ style */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.faq {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.faq h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.faq b {
+  font-size: larger;
+}
+.faq p {
+  margin: 0;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+/* style login abnd register button */
+.login-register {
+  display: flex;
+  justify-content: flex-end;
+}
+.login-register a {
+  display: block;
+  padding: 10px;
+  background-color: #a22828;
+  color: #fdf9f9;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0 8px;
+  transition: transform 0.2s;
+}
+.login-register a:hover {
+  transform: scale(1.1);
+}
